@@ -1,0 +1,20 @@
+
+
+.modal.fade.help .modal-title{
+    padding: 20px
+ }
+ .modal.fade.help{
+     justify-content: center;
+     
+ }
+ .modal.fade.help .modal-dialog{
+     width: 25em;
+     
+ }
+ .modal.fade.help .modal-header{
+     border: 0;
+     text-align: left
+ }
+ 
+ 
+ 

@@ -1,0 +1,82 @@
+
+
+thead{
+    box-shadow: 0 9px 18px 0px rgba(105, 105, 105, 0.356)
+}
+
+.table-head{
+    font-weight: bold;
+}
+
+#cabecalho{
+    position: relative;
+}
+
+#cabecalho.active{
+    z-index: 6;
+}
+#cabecalho th {
+    background:  rgb(255, 192, 56);
+    border: 0;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 55px;
+    color: rgb(19, 18, 18);
+    font-family: Mina;
+}
+.table-head.footable-sortable{
+    width: 300px;
+}
+.table-body {
+    text-align: center;
+    border: 0;
+    color: rgb(19, 18, 18);
+    font-family: Mina;
+}
+.table-body.active{
+    width: 300px;
+}
+#tabela{ 
+    width: 100%;
+    top: 0px;
+    position: relative;
+    transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+    border: 0;
+    min-height: fit-content;
+    
+}
+#tabela.active{
+    top: 10px;
+    position: absolute;
+    transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#tabela tr{
+    cursor: pointer;
+    height: fit-content;
+}
+
+#primeira-linha td{
+    border-top: 0;
+}
+
+#tablebody{
+    position: relative;
+}
+#tablebody.active{
+    z-index: 5;
+}
+
+.modal-info{
+    justify-content: space-between; 
+    display:flex; 
+    
+    flex-direction: row
+}
+.modal-item{
+    padding: 0 20px 20px 20px;
+}
+.modal-body{
+    height: 100%;
+    overflow-y: auto;
+}
